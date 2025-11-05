@@ -10,34 +10,29 @@ yarn-error.log
 .env.test.local
 .env.production.local
 
-# MongoDB
-# data/
-
-# React.js
-build/
-dist/
-
-# Editor and IDE files
-.vscode/
-.idea/
-*.iml
-*.ipr
-*.iws
+# Uploads & generated files
+uploads/
+invoices/
 
 # Logs
 logs/
 *.log
 
 # Dependency lock files
-package-lock.json
-yarn.lock
+# (You can remove these only if you don't want to track them)
+# package-lock.json
+# yarn.lock
 
-# Build output
-public/
+# IDE files
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# OS files
+.DS_Store
+Thumbs.db
 
 # Testing
 coverage/
-
-# Misc
-.DS_Store
-Thumbs.db
