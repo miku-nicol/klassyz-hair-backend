@@ -11,8 +11,8 @@ yarn-error.log
 .env.production.local
 
 # Uploads & generated files
-uploads/
-invoices/
+
+
 
 # Logs
 logs/
