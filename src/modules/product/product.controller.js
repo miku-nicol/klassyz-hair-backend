@@ -26,7 +26,7 @@ const createProduct = async (req, res) => {
 
     const newProduct = new Product({
        ...req.body,
-       image: image ? `uploads/${image}` : null,
+       image: image ? `/uploads/${image}` : null,
 
     });
 
