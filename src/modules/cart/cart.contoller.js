@@ -47,7 +47,8 @@ const addItemToCart = async (req, res) => {
           price: matchedProduct.price,
           quantity: item.quantity,
           totalItemPrice: matchedProduct.price * item.quantity,
-          image: matchedProduct.image,
+          image: matchedProduct.image.replace(/^http:\/\/localhost:9000/, "")
+
         };
       })
       .filter(Boolean);
